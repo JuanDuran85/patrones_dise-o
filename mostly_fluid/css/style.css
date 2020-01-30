@@ -1,3 +1,26 @@
+.container {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
 
+.columna1, .columna2, .columna3, .columna4, .columna5 {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .columna1 {
+    width: 60%;
+  }
+
+  .columna2 {
+    width: 40%;
+  }
+
+  .columna3, .columna4, .columna5 {
+    width: 33.3%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

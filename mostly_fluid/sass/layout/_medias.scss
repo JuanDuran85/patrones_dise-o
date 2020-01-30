@@ -1,0 +1,11 @@
+@media (min-width: 800px) {
+    .columna1 {
+        width: $ancho2;
+    }
+    .columna2 {
+        width: $ancho3;
+    }
+    .columna3,.columna4,.columna5 {
+        width: $ancho4;  
+    }
+}

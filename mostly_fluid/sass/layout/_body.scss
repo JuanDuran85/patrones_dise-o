@@ -1,0 +1,10 @@
+.container {
+    display: $vista;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+}
+
+.columna1, .columna2, .columna3, .columna4, .columna5 {
+    width: $ancho1;
+} 
