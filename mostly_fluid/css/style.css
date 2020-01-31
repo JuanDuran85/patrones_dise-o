@@ -11,6 +11,26 @@
   border: 1px solid black;
 }
 
+.columna1 {
+  background-color: #aaafff;
+}
+
+.columna2 {
+  background-color: #bbbfff;
+}
+
+.columna3 {
+  background-color: #ccfffc;
+}
+
+.columna4 {
+  background-color: #dddfff;
+}
+
+.columna5 {
+  background-color: #fffaaa;
+}
+
 @media (min-width: 600px) {
   .columna2, .columna3, .columna4, .columna5 {
     width: 50%;

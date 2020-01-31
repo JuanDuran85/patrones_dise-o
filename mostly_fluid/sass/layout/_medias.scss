@@ -1,17 +1,23 @@
+//con 600px
 @media (min-width: $media1) {
     .columna2,.columna3,.columna4,.columna5 {
+        //con ancho de 50%
         width: $ancho5;  
     }
 }
 
+//con 800px
 @media (min-width: $media2) {
     .columna1 {
+        //con ancho de 60%
         width: $ancho2;
     }
     .columna2 {
+        //con ancho de 40%
         width: $ancho3;
     }
     .columna3,.columna4,.columna5 {
+        //con ancho de 33.33%
         width: $ancho4;  
     }
 

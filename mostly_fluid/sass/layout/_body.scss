@@ -9,4 +9,21 @@
 .columna1, .columna2, .columna3, .columna4, .columna5 {
     width: $ancho1;
     border: $bordes1;
-} 
+}
+
+// @for $i from 0 through 5 {
+//     .columna#{$i} {
+//         background-color: $color-#{$i};
+//     }
+// }
+
+@each $columna, $color in (
+    columna1: $color-0, 
+    columna2: $color-1, 
+    columna3: $color-2, 
+    columna4: $color-3, 
+    columna5: $color-4) {
+    .#{$columna} {
+        background-color: $color;
+      }
+}
