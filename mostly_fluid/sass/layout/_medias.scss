@@ -1,4 +1,10 @@
-@media (min-width: 800px) {
+@media (min-width: $media1) {
+    .columna2,.columna3,.columna4,.columna5 {
+        width: $ancho5;  
+    }
+}
+
+@media (min-width: $media2) {
     .columna1 {
         width: $ancho2;
     }
@@ -7,5 +13,11 @@
     }
     .columna3,.columna4,.columna5 {
         width: $ancho4;  
+    }
+
+    .container {
+        width: $media2;
+        margin-left: $auto;
+        margin-right: $auto;  
     }
 }

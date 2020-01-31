@@ -3,8 +3,10 @@
     display: -webkit-flex;
     flex-flow: row wrap;
     -webkit-flex-flow: row wrap;
+    border: $bordes1;
 }
 
 .columna1, .columna2, .columna3, .columna4, .columna5 {
     width: $ancho1;
+    border: $bordes1;
 } 
