@@ -8,3 +8,12 @@
 .columna1,.columna2,.columna3 {
     width: $cienpor;
 }
+
+@each $columna, $color in (
+    columna1: $color1, 
+    columna2: $color3, 
+    columna3: $color3) {
+    .#{$columna}{
+        background-color: $color;
+    }
+}
