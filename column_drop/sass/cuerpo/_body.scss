@@ -1,0 +1,10 @@
+.container {
+    display: $vista;
+    display: -webkit-flex;
+    flex-flow: $flujo-flex;
+    -webkit-flex-flow: $flujo-flex;
+}
+
+.columna1,.columna2,.columna3 {
+    width: $cienpor;
+}
