@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/cuerpo/_body.scss","../sass/datos/_variables.scss","../sass/cuerpo/_media.scss"],"names":[],"mappings":"AAAA;EACI,SCDI;EDEJ;EACA,WCFS;EDGT,mBCHS;;;ADMb;EACI,OCNM;;;ACFV;EACI;IACI,ODEG;ICDH,eDIF;ICHE,ODGF;;;ECDF;IACI,ODFI;ICGJ,eDFF;ICGE,ODHF;;;ECKF;IACI,ODVE;ICWF,eDLD;ICMC,ODND;;;ACUP;EACI;IACI,ODVI","file":"style.css"}
