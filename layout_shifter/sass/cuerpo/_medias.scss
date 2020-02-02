@@ -1,0 +1,17 @@
+@media (min-width: $seiscein) {
+    .columna1 {
+        width: $veinticinpor;
+        height: 100vh;  
+    }
+    .container-inner {
+        width: $setencinpor;
+    }
+}
+
+@media (min-width: $ochocien) {
+    .container {
+        width: $ochocien;
+        margin-left: $auto;
+        margin-right: $auto;  
+    }
+}

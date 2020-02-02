@@ -1,0 +1,23 @@
+@media (min-width: $tresCienPx) {
+    .columna1 {
+        padding: $cincoPx;
+        font-size: $unEm;
+        background-color: rgba($color: #65753a, $alpha: 0.5);
+    }
+}
+
+@media (min-width: $seiCienPx) {
+    .columna1 {
+        padding: $veintePx;
+        font-size: $unoCincoEm;
+        background-color: rgba($color: #678d6dad, $alpha: 0.5);
+    }
+}
+
+@media (min-width: $ochoCienPx) {
+    .columna1 {
+        padding: $cuarenPx;
+        font-size: $dosEm;
+        background-color: rgba($color: #563a75, $alpha: 0.5);
+    }
+}

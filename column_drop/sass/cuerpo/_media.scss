@@ -1,0 +1,23 @@
+@media (min-width: $seiscien) {
+    .columna1 {
+        width: $sesenpor;
+        -webkit-order: $dos;
+        order: $dos;  
+    }
+    .columna2 {
+        width: $cuarenpor;
+        -webkit-order: $uno;
+        order: $uno;  
+    }
+    .columna3 {
+        width: $cienpor;
+        -webkit-order: $tres;
+        order: $tres;  
+    }
+}
+
+@media (min-width: $ochocien) {
+    .columna2, .columna3 {
+        width: $veintepor;  
+    }
+}
