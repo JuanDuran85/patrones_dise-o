@@ -1,0 +1,15 @@
+@media (min-width: 600px) {
+    .container {
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row nowrap;  
+        -webkit-flex-flow: row nowrap;
+    }
+
+    .columna1 {
+        transform: translate(0, 0);  
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+    }
+}
