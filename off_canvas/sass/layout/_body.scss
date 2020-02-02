@@ -1,0 +1,10 @@
+.columna1 {
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+    transition: transform 0.3s ease-out;
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    z-index: 1;
+}
