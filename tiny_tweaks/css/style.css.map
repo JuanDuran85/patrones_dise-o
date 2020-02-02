@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/layout/_cuerpo.scss","../sass/variables/_datos.scss","../sass/layout/_medias.scss"],"names":[],"mappings":"AAAA;EACI,SCDK;EDEL,OCDU;;;ACDd;EACI;IACI,SDQE;ICPF,WDMD;ICLC;;;AAIR;EACI;IACI,SDPG;ICQH,WDPK;ICQL;;;AAIR;EACI;IACI,SDZG;ICaH,WDZA;ICaA","file":"style.css"}
